@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    background-image: url("./images/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Sets the width of the element (adjust as needed) */
+    height: 680px; /* Sets a height for the element (adjust as needed) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav {
+    font-family: "Montserrat", sans-serif;
+    height: 40px;
+    width: 1488px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Black background */
+    padding: 10px 20px; /* Padding around navbar items */
+    color: #fff; /* White text color */
+}
+nav li{
+    text-decoration: none;
+}
+
+/* Styling for the navigation list */
+nav ul {
+    display: flex;
+    list-style: none; /* Remove default list styling */
+    margin: 200px;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 20px; /* Space between list items */
+    font-size: 20px; /* Font size for list items */
+    cursor: pointer;
+}
+
+/* Remove underline from links if you use them */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for the button */
+nav button {
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+nav button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+.para h1{
+    font-size: 100px;
+    margin-top: 140px;
+    font-family: "Nunito", sans-serif;
+}
+.para p{
+    font-size: 20px;
+}
+/* Container for buttons */
+.btn {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin: 20px 0; /* Optional margin for spacing */
+}
+
+/* Button styling */
+.btn button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #ffffff; /* Default background color */
+    color: rgb(0, 0, 0); /* Default text color */
+    font-size: 16px;
+    font-weight: bold; /* Bold text */
+    cursor: pointer;
+    transition: all 0.5s ease; /* Smooth transition for all properties */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Hover effect */
+.btn button:hover {
+    background-color: #024791; /* Darker background color on hover */
+    color: #f8f9fa; /* Lighter text color on hover */
+    border: 2px solid #78b9ff; /* Optional border on hover */
+    transform: scale(1.05); /* Slightly increase button size */
+}
+
+/* Focus effect (for accessibility) */
+.btn button:focus {
+    border: 2px solid #3790f0; /* Border for focus */
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Shadow for focus */
+}
